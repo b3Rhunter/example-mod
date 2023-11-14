@@ -1,0 +1,54 @@
+VERSION = 1,
+
+option Permanent.KeepExperience {
+  type        = boolean,
+  default     = false,
+  page        = Permanent,
+  translation = Permanent_KeepExperience
+}
+
+option Permanent.SlenderDoeSetWeight {
+  type        = integer,
+  min         = 50,
+  max         = 100,
+  default     = 80,
+  page        = Permanent,
+  translation = Permanent_SlenderDoeSetWeight
+}
+
+option Permanent.CanBuildMoonshineStill {
+  type        = boolean,
+  default     = false,
+  page        = Permanent,
+  translation = Permanent_CanBuildMoonshineStill
+}
+
+option Permanent.AllowBrewingVanillaAlcohol {
+  type        = boolean,
+  default     = true,
+  page        = Permanent,
+  translation = Permanent_AllowBrewingVanillaAlcohol
+}
+
+option Permanent.AllowBrewingExclusiveAlcohol {
+  type        = boolean,
+  default     = false,
+  page        = Permanent,
+  translation = Permanent_AllowBrewingExclusiveAlcohol
+}
+
+option Permanent.AllowExclusiveRecipeInZombieLoot {
+  type        = boolean,
+  default     = false,
+  page        = Permanent,
+  translation = Permanent_AllowExclusiveRecipeInZombieLoot
+}
+
+option Permanent.ExclusiveRecipeInAllZombiesLootChance {
+  type        = double,
+  min         = 0.0,
+  max         = 200.0,
+  default     = 0.0001,
+  page        = Permanent,
+  translation = Permanent_ExclusiveRecipeInAllZombiesLootChance
+}
